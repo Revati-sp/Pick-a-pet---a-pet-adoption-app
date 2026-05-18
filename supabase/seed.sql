@@ -1,0 +1,125 @@
+-- ============================================================
+-- SwipeVote — Seed Data (100 Adoptable Pets)
+-- Run this AFTER schema.sql in the Supabase SQL Editor
+-- ============================================================
+
+insert into items (id, name, description, image_url) values
+
+-- DOGS (1-30)
+(1,  'Buddy',        'Friendly 3-year-old Golden Retriever who loves fetch and belly rubs. Great with kids and other pets.',           'https://loremflickr.com/400/500/golden,retriever?lock=1'),
+(2,  'Max',          'Energetic 5-year-old Labrador who loves swimming. The perfect outdoor adventure companion.',                     'https://loremflickr.com/400/500/labrador,dog?lock=2'),
+(3,  'Charlie',      'Curious 2-year-old Beagle with a nose for adventure. Loves sniffing and howling at birds.',                     'https://loremflickr.com/400/500/beagle,dog?lock=3'),
+(4,  'Cooper',       'Brilliant 4-year-old Border Collie who thrives on puzzle toys and agility training.',                           'https://loremflickr.com/400/500/border,collie?lock=4'),
+(5,  'Milo',         'Tiny 1-year-old Dachshund with maximum personality. He thinks he is the biggest dog in the room.',              'https://loremflickr.com/400/500/dachshund,dog?lock=5'),
+(6,  'Rocky',        'Loyal 6-year-old German Shepherd, calm and obedient. Best with experienced dog owners.',                        'https://loremflickr.com/400/500/german,shepherd?lock=6'),
+(7,  'Bear',         'Gentle giant Newfoundland, 4 years old. Acts like a puppy but weighs 130 lbs. Loves water.',                   'https://loremflickr.com/400/500/newfoundland,dog?lock=7'),
+(8,  'Duke',         'Chill 3-year-old Bulldog who prefers napping to running. The ideal couch buddy.',                               'https://loremflickr.com/400/500/bulldog,dog?lock=8'),
+(9,  'Zeus',         '2-year-old Siberian Husky who loves cold weather and howling. Escape artist level: legendary.',                 'https://loremflickr.com/400/500/husky,dog?lock=9'),
+(10, 'Apollo',       'Playful 5-year-old Dalmatian with spots for days. Energetic and loyal — needs lots of exercise.',               'https://loremflickr.com/400/500/dalmatian,dog?lock=10'),
+(11, 'Tucker',       'Clever 7-year-old Poodle, hypoallergenic and still sharp as a tack. Loves learning new tricks.',               'https://loremflickr.com/400/500/poodle,dog?lock=11'),
+(12, 'Jack',         'Zippy 3-year-old Jack Russell Terrier who never stops moving. Perfect for active families.',                    'https://loremflickr.com/400/500/jack,russell?lock=12'),
+(13, 'Oliver',       'Gentle 4-year-old Cavalier King Charles Spaniel. Loves lap time and slow morning walks.',                      'https://loremflickr.com/400/500/cavalier,spaniel?lock=13'),
+(14, 'Leo',          'Fluffy 2-year-old Shih Tzu with the mane of a little lion and the heart of a teddy bear.',                    'https://loremflickr.com/400/500/shih,tzu?lock=14'),
+(15, 'Riley',        'Agile 3-year-old Australian Shepherd who thrives on outdoor activity and loves to herd.',                      'https://loremflickr.com/400/500/australian,shepherd?lock=15'),
+(16, 'Winston',      'Charming 5-year-old Corgi with big ears and an even bigger personality. Low rider, high energy.',              'https://loremflickr.com/400/500/corgi,dog?lock=16'),
+(17, 'Finn',         'Gorgeous 4-year-old Irish Setter with a flowing red coat and a cheerful, social personality.',                 'https://loremflickr.com/400/500/irish,setter?lock=17'),
+(18, 'Murphy',       '6-year-old Basset Hound with ears for days and a mellow, lovable temperament.',                               'https://loremflickr.com/400/500/basset,hound?lock=18'),
+(19, 'Harvey',       'Goofy 3-year-old Boxer who acts like a forever puppy. Playful and great with children.',                       'https://loremflickr.com/400/500/boxer,dog?lock=19'),
+(20, 'Sam',          'Sweet 4-year-old mixed-breed rescue, fully trained and ready to pour love into a new family.',                 'https://loremflickr.com/400/500/mixed,dog?lock=20'),
+(21, 'Rex',          '2-year-old Rottweiler, big softy once he knows you. Excels with consistent, loving owners.',                  'https://loremflickr.com/400/500/rottweiler,dog?lock=21'),
+(22, 'Biscuit',      'Tiny 1-year-old Pomeranian who is 100% fluff and 0% chill. Will steal your heart instantly.',                 'https://loremflickr.com/400/500/pomeranian,dog?lock=22'),
+(23, 'Peanut',       '3-year-old Chihuahua, small but mighty. Fiercely loyal and loves burrowing under blankets.',                  'https://loremflickr.com/400/500/chihuahua,dog?lock=23'),
+(24, 'Coco',         '5-year-old Cocker Spaniel with silky ears and a sweet face. Gentle and great with all ages.',                 'https://loremflickr.com/400/500/cocker,spaniel?lock=24'),
+(25, 'Moose',        '2-year-old Great Dane who still thinks he is a lap dog. Gentle, calm, and wonderfully clumsy.',               'https://loremflickr.com/400/500/great,dane?lock=25'),
+(26, 'Thor',         'Majestic 4-year-old Alaskan Malamute. Wolf-like looks, big sled-dog heart. Needs a yard.',                    'https://loremflickr.com/400/500/malamute,dog?lock=26'),
+(27, 'Ranger',       '7-year-old Bloodhound with legendary nose and lovable wrinkles. Senior dog, max cuddles.',                    'https://loremflickr.com/400/500/bloodhound,dog?lock=27'),
+(28, 'Scout',        'Velcro dog Vizsla, 3 years old. Athletic, loyal, and will follow you from room to room.',                     'https://loremflickr.com/400/500/vizsla,dog?lock=28'),
+(29, 'Bolt',         '2-year-old Whippet — lightning fast on the track, championship napper on the couch.',                         'https://loremflickr.com/400/500/whippet,dog?lock=29'),
+(30, 'Rusty',        'Senior 8-year-old mixed breed with a grey muzzle and buckets of gentle love left to give.',                   'https://loremflickr.com/400/500/dog,senior?lock=30'),
+
+-- CATS (31-55)
+(31, 'Whiskers',     'Classic 4-year-old brown tabby who loves sunny windowsills and chasing laser pointers.',                       'https://loremflickr.com/400/500/tabby,cat?lock=31'),
+(32, 'Luna',         'Mysterious 2-year-old black cat with golden eyes. Debunks all superstitions with her sweetness.',              'https://loremflickr.com/400/500/black,cat?lock=32'),
+(33, 'Bella',        'Regal 5-year-old Persian who expects to be pampered daily. Worth every brush stroke.',                         'https://loremflickr.com/400/500/persian,cat?lock=33'),
+(34, 'Shadow',       'Playful 3-year-old tuxedo cat who loves chasing shadows — including his own tail.',                            'https://loremflickr.com/400/500/tuxedo,cat?lock=34'),
+(35, 'Nala',         'Talkative 6-year-old Siamese who will narrate your entire day. Deeply loyal to her person.',                   'https://loremflickr.com/400/500/siamese,cat?lock=35'),
+(36, 'Simba',        '1-year-old orange tabby with the heart of a lion and the mischief of a kitten.',                              'https://loremflickr.com/400/500/orange,cat?lock=36'),
+(37, 'Cleo',         'Spotted 4-year-old Egyptian Mau — elegant, fast, and very aware of her own beauty.',                          'https://loremflickr.com/400/500/spotted,cat?lock=37'),
+(38, 'Mittens',      'Dapper 3-year-old tuxedo cat with extra toes (polydactyl). Uses them to open doors.',                         'https://loremflickr.com/400/500/cat,paws?lock=38'),
+(39, 'Tiger',        '2-year-old Bengal with wild spots and a domestic heart. Loves water and puzzle feeders.',                      'https://loremflickr.com/400/500/bengal,cat?lock=39'),
+(40, 'Lily',         'Serene 5-year-old white cat who glides around the house like a ghost — a very cuddly ghost.',                 'https://loremflickr.com/400/500/white,cat?lock=40'),
+(41, 'Pearl',        '7-year-old Russian Blue, reserved at first then fiercely devoted. Loves quiet homes.',                         'https://loremflickr.com/400/500/russian,blue,cat?lock=41'),
+(42, 'Violet',       'Bold 3-year-old tortoiseshell with strong opinions and stronger purrs. Zero filter.',                          'https://loremflickr.com/400/500/tortoiseshell,cat?lock=42'),
+(43, 'Jasper',       'Dog-like 4-year-old Maine Coon who greets you at the door and fetches crinkle balls.',                        'https://loremflickr.com/400/500/maine,coon?lock=43'),
+(44, 'Felix',        'Mischievous 2-year-old grey tabby who reorganizes your shelves nightly. Very helpful.',                        'https://loremflickr.com/400/500/grey,cat?lock=44'),
+(45, 'Salem',        '6-year-old all-black cat who sits dramatically in dark corners — for comedic effect only.',                    'https://loremflickr.com/400/500/black,cat,dark?lock=45'),
+(46, 'Pumpkin',      '3-year-old round orange cat named for his belly. Requires three meals and infinite love.',                     'https://loremflickr.com/400/500/orange,tabby,cat?lock=46'),
+(47, 'Snowy',        '5-year-old white Persian who lives for grooming sessions and sun puddles.',                                    'https://loremflickr.com/400/500/white,persian,cat?lock=47'),
+(48, 'Ginger',       'Fiery name, gentle soul — 1-year-old ginger cat who headbutts as a love language.',                           'https://loremflickr.com/400/500/ginger,cat,kitten?lock=48'),
+(49, 'Oreo',         '2-year-old black-and-white cookie-colored cat. Energetic, playful, loves feather toys.',                      'https://loremflickr.com/400/500/black,white,cat?lock=49'),
+(50, 'Marble',       'Gorgeous 4-year-old calico with a tri-color coat and the attitude of a runway model.',                        'https://loremflickr.com/400/500/calico,cat?lock=50'),
+(51, 'Sage',         'Calm 3-year-old grey-and-white cat. Wise beyond her years, perfect for meditation sessions.',                  'https://loremflickr.com/400/500/grey,white,cat?lock=51'),
+(52, 'Iris',         '5-year-old blue-eyed white cat with a gaze that melts hearts. Prefers classical music.',                      'https://loremflickr.com/400/500/blue,eye,cat?lock=52'),
+(53, 'Cosmo',        '2-year-old tabby fascinated by ceiling fans, bubbles, and the void. Deeply philosophical.',                   'https://loremflickr.com/400/500/tabby,kitten?lock=53'),
+(54, 'Pixel',        '1-year-old calico kitten with tiny dot patterns and a huge personality to match.',                            'https://loremflickr.com/400/500/calico,kitten?lock=54'),
+(55, 'Jinx',         '4-year-old black cat who will bring you nothing but good luck and cozy evenings.',                            'https://loremflickr.com/400/500/black,cat,lucky?lock=55'),
+
+-- RABBITS (56-70)
+(56, 'Thumper',      '1-year-old Holland Lop with floppy ears and endless happy hops called binkies.',                              'https://loremflickr.com/400/500/rabbit,bunny?lock=56'),
+(57, 'Cottontail',   'Gentle 3-year-old Flemish Giant — surprisingly large, surprisingly calm, endlessly fluffy.',                  'https://loremflickr.com/400/500/flemish,rabbit?lock=57'),
+(58, 'Hazel',        '2-year-old Mini Rex with velvet fur that you will not be able to stop petting. Ever.',                        'https://loremflickr.com/400/500/mini,rex,rabbit?lock=58'),
+(59, 'Snowball',     '4-year-old white Angora who is basically a living cloud. Needs regular brushing.',                            'https://loremflickr.com/400/500/white,rabbit,angora?lock=59'),
+(60, 'Pebble',       'Pocket-sized 1-year-old dwarf rabbit with enormous ears and endless curiosity.',                              'https://loremflickr.com/400/500/dwarf,rabbit?lock=60'),
+(61, 'Clover',       '2-year-old Lionhead with a dramatic mane and a calm, friendly temperament.',                                  'https://loremflickr.com/400/500/lionhead,rabbit?lock=61'),
+(62, 'Dusty',        '3-year-old grey Chinchilla rabbit with a dusty blue-grey coat and peaceful energy.',                          'https://loremflickr.com/400/500/grey,rabbit?lock=62'),
+(63, 'Pepper',       '1-year-old black Dutch rabbit with bold markings. Loves zooming at 8 PM every night.',                       'https://loremflickr.com/400/500/dutch,rabbit?lock=63'),
+(64, 'Tulip',        '2-year-old white-and-orange rabbit named for her spring colors and gentle nature.',                           'https://loremflickr.com/400/500/rabbit,cute?lock=64'),
+(65, 'Mocha',        'Coffee-brown lop bunny, 3 years old. Calm, relaxed, and loves sitting beside you.',                          'https://loremflickr.com/400/500/brown,rabbit,lop?lock=65'),
+(66, 'Cream',        '1-year-old cream Angora — softer than any pillow and twice as calming.',                                     'https://loremflickr.com/400/500/cream,rabbit?lock=66'),
+(67, 'Caramel',      'Sweet 2-year-old caramel lop whose name perfectly matches her golden coat.',                                  'https://loremflickr.com/400/500/caramel,rabbit?lock=67'),
+(68, 'Sandy',        'Gentle 4-year-old tan rabbit. Old enough to be calm, young enough to still love to play.',                   'https://loremflickr.com/400/500/tan,rabbit?lock=68'),
+(69, 'Flopsy',       '3-year-old Holland Lop. The name was unavoidable. The ears are spectacular.',                                 'https://loremflickr.com/400/500/lop,rabbit,ear?lock=69'),
+(70, 'Binky',        '1-year-old mixed-breed rabbit named for the jump of pure joy that rabbits do.',                              'https://loremflickr.com/400/500/rabbit,hop?lock=70'),
+
+-- GUINEA PIGS (71-80)
+(71, 'Nugget',       'Golden 1-year-old American guinea pig who wheeks loudly at vegetable time.',                                  'https://loremflickr.com/400/500/guinea,pig?lock=71'),
+(72, 'Butterscotch', '2-year-old Peruvian with long golden hair that flows like a tiny rock star.',                                 'https://loremflickr.com/400/500/guinea,pig,long,hair?lock=72'),
+(73, 'Cheddar',      '1-year-old Abyssinian guinea pig with wild rosette swirls. Bold, funny, and opinionated.',                   'https://loremflickr.com/400/500/abyssinian,guinea?lock=73'),
+(74, 'Brownie',      'Chocolate-brown 3-year-old American guinea pig. Slow to trust, then your friend forever.',                   'https://loremflickr.com/400/500/brown,guinea,pig?lock=74'),
+(75, 'Fudge',        '2-year-old Teddy guinea pig with plush teddy-bear fur. Loves being held.',                                   'https://loremflickr.com/400/500/teddy,guinea,pig?lock=75'),
+(76, 'Maple',        '1-year-old maple-syrup colored guinea pig who will purr on your lap.',                                       'https://loremflickr.com/400/500/guinea,pig,cute?lock=76'),
+(77, 'Honey',        '2-year-old Silkie guinea pig with honey-colored flowing fur. Extremely gentle.',                             'https://loremflickr.com/400/500/silkie,guinea?lock=77'),
+(78, 'Cookie',       '1-year-old cream guinea pig with dark spots — a living cookies-and-cream dessert.',                          'https://loremflickr.com/400/500/guinea,pig,small?lock=78'),
+(79, 'Biscotti',     '2-year-old Crested guinea pig with a natural crown of fur on his head. Regal.',                             'https://loremflickr.com/400/500/crested,guinea?lock=79'),
+(80, 'Waffle',       '1-year-old Skinny pig — yes, hairless! Warm to the touch and full of personality.',                         'https://loremflickr.com/400/500/skinny,pig?lock=80'),
+
+-- HAMSTERS (81-90)
+(81, 'Pipsqueak',    '6-month-old Syrian hamster, tinier than your phone. Big on wheel time, big on naps.',                        'https://loremflickr.com/400/500/hamster?lock=81'),
+(82, 'Nibbles',      '8-month-old Dwarf hamster who nibbles everything lovingly — including your finger.',                          'https://loremflickr.com/400/500/dwarf,hamster?lock=82'),
+(83, 'Wheels',       '1-year-old Syrian hamster — the original fitness influencer. Runs 8 miles a night.',                         'https://loremflickr.com/400/500/hamster,wheel?lock=83'),
+(84, 'Fluffernutter', '6-month-old Teddy Bear hamster. The fluffiest hamster alive. No debate.',                                   'https://loremflickr.com/400/500/teddy,hamster?lock=84'),
+(85, 'Cotton',       '8-month-old white Syrian hamster — a cotton ball with beady eyes and big cheek pouches.',                    'https://loremflickr.com/400/500/white,hamster?lock=85'),
+(86, 'Pepper',       '6-month-old spotted grey Dwarf hamster. Tiny speedster who challenges cats to races.',                       'https://loremflickr.com/400/500/grey,hamster?lock=86'),
+(87, 'Sprout',       '1-year-old Chinese Dwarf hamster — smallest of the crew, fastest in the tunnel.',                           'https://loremflickr.com/400/500/chinese,hamster?lock=87'),
+(88, 'Boba',         '6-month-old Roborovski hamster, the size of a grape and ten times as hyper.',                               'https://loremflickr.com/400/500/roborovski,hamster?lock=88'),
+(89, 'Waffles',      '8-month-old golden Syrian hamster. Sunday morning energy all seven days of the week.',                       'https://loremflickr.com/400/500/golden,hamster?lock=89'),
+(90, 'Marble',       '1-year-old black-and-white Syrian hamster with a marbled coat and curious personality.',                     'https://loremflickr.com/400/500/hamster,cute?lock=90'),
+
+-- BIRDS (91-95)
+(91, 'Mango',        '3-year-old Sun Conure blazing in orange and yellow. Loud, playful, and deeply affectionate.',                'https://loremflickr.com/400/500/sun,conure,parrot?lock=91'),
+(92, 'Kiwi',         '2-year-old green Parakeet with a growing vocabulary. Learns a new word every week.',                         'https://loremflickr.com/400/500/parakeet,budgie?lock=92'),
+(93, 'Sunny',        '4-year-old Cockatiel who whistles the Andy Griffith theme and fans his crest on demand.',                   'https://loremflickr.com/400/500/cockatiel,bird?lock=93'),
+(94, 'Pepper',       '7-year-old African Grey who can hold a real conversation. Knows your mood before you do.',                   'https://loremflickr.com/400/500/african,grey,parrot?lock=94'),
+(95, 'Mochi',        '2-year-old Lovebird who needs a best friend — could that be you? Cuddly and sweet.',                        'https://loremflickr.com/400/500/lovebird,parrot?lock=95'),
+
+-- SMALL & EXOTIC (96-100)
+(96, 'Nemo',         '1-year-old clownfish with iconic orange-and-white stripes. Found in our shelter tank.',                      'https://loremflickr.com/400/500/clownfish,aquarium?lock=96'),
+(97, 'Speedy',       '5-year-old Red-eared Slider turtle. Slow, steady, and absolutely wins your heart.',                          'https://loremflickr.com/400/500/turtle,tortoise?lock=97'),
+(98, 'Dotty',        '3-year-old Blue-tongued Skink — gentle lizard who loves blueberries and surprise tongue reveals.',           'https://loremflickr.com/400/500/skink,lizard?lock=98'),
+(99, 'Ziggy',        '2-year-old Leopard Gecko with spotted designer coat and the most chill energy in the shelter.',              'https://loremflickr.com/400/500/leopard,gecko?lock=99'),
+(100,'Marcel',       '4-year-old ferret — slinky, mischievous, and absolutely obsessed with stealing socks.',                     'https://loremflickr.com/400/500/ferret?lock=100')
+
+on conflict (id) do update
+  set name        = excluded.name,
+      description = excluded.description,
+      image_url   = excluded.image_url;
